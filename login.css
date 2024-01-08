@@ -57,7 +57,7 @@ body{
 }
 
 
-/* .see1, .see2{
+.see1, .see2{
     position: absolute;
     width: 100%;
     height: 150px;
@@ -83,5 +83,5 @@ body{
 .container.active .see1{
     transition: none;
     transform: translateX(0);
-} */
+}
 
