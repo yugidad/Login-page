@@ -2,24 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,900;1,400&family=Mulish:ital@1&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="login.css" />
+    <title>Login Home page</title>
 </head>
 
-<!-- <body>
-    <div class="container">
-        <div class="see1">
-            <p>you can see me</p>
-            <a href="#" class="click1"> click and see what happened!</a>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h2 class="logo">LOGO</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <button class="btn-login">Login</button>
+        </nav>
+    </header>
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <!-- CLOSE ICON -->
+        <span class="close-login"><ion-icon name="close-outline"></ion-icon></span>
+        <!-- LOGIN BOX -->
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required />
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required />
+                    <label for="password">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me! </label>
+                    <a href="#"> Forgot password?</a>
+                </div>
+                <button type="submit" class="btn-login_acct">Login</button>
+                <div class="register-login">
+                    <p>Don't have an account? <a href="#" class="login-link">Register</a></p>
+                </div>
+            </form>
         </div>
+        <!-- REGISTRATION BOX -->
+        <div class="reg-box">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="username" required />
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required />
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required />
+                    <label for="password">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> I agree to the terms & condition</label>
+                </div>
+                <button type="submit" class="btn-login_acct">Register</button>
+                <div class="register-login">
+                    <p>Already have an account? <a href="#" class="register-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
 
-        <div class="see2">
-            <p>its me again</p>
-            <a href="#" class="click2"> click again!</a>
-        </div>
-    </div> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="login.js"></script>
 </body>
 
